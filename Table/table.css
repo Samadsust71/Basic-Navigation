@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+body header nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 194, 54);
+}

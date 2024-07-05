@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+    <style>
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+    th,td{
+        border: 1px solid black;
+        padding: 2px;
+        margin: 2px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <!--mega menu nesting using nav...for nevigate one web page to another-->
+        <nav>
+            <ul>
+                <li><a href="/htm and css basic/Home/home.html">Home</a></li>
+                <li><a href="/htm and css basic/My Blog/blog.html"> My Blogs</a></li>        
+                <li><a href="/htm and css basic/Form/form.html">Form</a></li>        
+                <li><a href="/htm and css basic/List/list.html">List</a></li>        
+                <li><a href="/htm and css basic/Table/table.html">Table</a></li>
+                <li><a href="/htm and css basic/calculator/index.html">Calculator</a></li>
+                <li><a href="/htm and css basic/about/about.html">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!--for table we need <table> tag then <tr> for row,<th> for header and <td> for data-->
+   <main>
+    <h4>HTML Table</h4>    
+    <table>
+        <caption>Office Hours</caption>
+        <tr>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>wednesday</th>
+            <th>Thurstday</th>
+        </tr>
+        <tr align="center" >
+            <td>Closed</td>
+            <td>Closed</td>
+            <td>9am-4pm</td>
+            <td>9am-4pm</td>
+            <td>9am-4pm</td>
+            <td>9am-4pm</td>
+            <td>9am-4pm</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <caption>Employees Salary</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Samad</td>
+                <td>Facebook</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samad</td>
+                <td>Google</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Samad</td>
+                <td>TwitterX</td>
+                <td>$1300</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Samad</td>
+                <td>Microsoft</td>
+                <td>$1400</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">Employee:4</td>
+            </tr>
+        </tfoot>
+    </table>
+    </main>
+</body>
+</html>
