@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    
+  </head>
+  <body>
+    <header>
+      <!--mega menu nesting using nav...for nevigate one web page to another-->
+      <nav>
+          <ul>
+              <li><a href="/htm and css basic/Home/home.html">Home</a></li>
+              <li><a href="/htm and css basic/My Blog/blog.html"> My Blogs</a></li>        
+              <li><a href="/htm and css basic/Form/form.html">Form</a></li>        
+              <li><a href="/htm and css basic/List/list.html">List</a></li>        
+              <li><a href="/htm and css basic/Table/table.html">Table</a></li>
+              <li><a href="/htm and css basic/calculator/index.html">Calculator</a></li>
+              <li><a href="/htm and css basic/about/about.html">About</a></li>
+          </ul>
+      </nav>
+
+  </header>
+
+  </header>
+   <main id="myform">
+   
+    <form action="index.php" method="post">
+      <label for="search">Search
+      <input type="search" id="search" /></label><br>
+
+      <label for="username">Username:</label> 
+      <input
+        type="text"
+        id="username"
+        minlength="6"
+        maxlength="15"
+        placeholder="samad71"
+        required
+      /></label><br />
+
+      <label for="password">Password:
+      <input
+        type="password"
+        id="password"
+        minlength="6"
+        maxlength="15"
+        required
+      /></label><br />
+
+      <label for="tel">Phone:</label>
+      <input type="tel" id="tel" placeholder="+8801712345678" max="14" /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="abcdefgh@gmil.com" /><br />
+
+      <label for="bday">Birthday:</label>
+      <input type="date" id="bday" required /><br />
+
+      <label for="quantity">Quantity:
+      <input type="number" id="quantity" min="0" max="100" value="0" /></label><br />
+
+      <label for="title">Title:
+      <label for="mr.">
+      <input type="radio" id="mr." value="mr." name="title" />Mr.</label>
+      <label for="ms.">
+      <input type="radio" id="ms." value="mr." name="title" />Ms.</label>
+      <label for="dr.">
+      <input type="radio" id="dr." value="mr." name="title" />Dr.</label>
+      </label>
+      <br />
+
+      <label for="payment">Payment Method:</label>
+      <select name="payment" id="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="bkash">bkash</option></select
+      ><br />
+
+      <label for="agreement">*I agree:</label>
+      <input type="checkbox" id="agreement" required /><br />
+
+      <label for="comment">Comment:</label>
+      <textarea name="comment" id="comment" rows="3" cols="25"></textarea><br />
+
+      <label for="file">Upload File:</label>
+      <input type="file" id="file" accept="image/jpeg" />
+
+      <br>
+      <br>
+      <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="Pros" id="pros" rows="3" cols="30">pros</textarea>
+      </fieldset>
+      <br>
+
+      <input type="reset" class="sub"/>
+      <br />
+      <input type="submit" class="sub" />
+    </form>
+ 
+ 
+  </main>
+  <footer>
+    <p><small> &copy;2025. All Rights Researved</small></p>
+  </footer>
+  </body>
+</html>
